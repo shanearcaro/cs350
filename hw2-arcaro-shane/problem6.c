@@ -7,7 +7,7 @@
 int saturating_add(int x, int y);
 
 int main(int argc, char* argv[]) {
-    printf("Sum: %d\n", saturating_add(INT_MAX, 1));
+    printf("Sum: %d\n", saturating_add(INT_MIN, -1));
     return 0;
 }
 
